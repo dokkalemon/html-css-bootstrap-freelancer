@@ -1,0 +1,20 @@
+.debug_bg {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.debug_bd_white {
+    border: 1px solid white;
+}
+
+.debug_bd_blue {
+    border: 1px solid blue;
+}
+
+/* Header */
+.header {
+    height: 90px;
+} 
+
+.jumbo {
+    height: calc(100vh - 90px)
+}
