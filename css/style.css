@@ -132,10 +132,53 @@
 }
 
 
-
+/* Form */
 .form {
     height: 600px
 }
+
+.site-form-title h1 {
+    font-size: 50px;
+}
+
+
+.site-input input,
+.site-input textarea
+ {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    border-radius: 0;
+    line-height: 30px;
+
+}
+
+.site-input textarea {
+    height: 100px
+}
+
+.site-input input::placeholder,
+.site-input label {
+    
+color: #2c3e50;
+    
+}
+
+.site-input label {
+    display: block;
+    margin-left: 12px;
+}
+
+.site-btn {
+    background: #1abc9c;;
+    border: 1px solid #1abc9c;
+    margin-left: 11px
+}
+
+
+
+
+
+
 
 .footer {
     height: 200px
