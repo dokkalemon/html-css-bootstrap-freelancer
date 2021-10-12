@@ -20,7 +20,8 @@
 .navbar-collapse .nav-item .site-nav-item {
     color: white;
     opacity: 1;
-    font-size: 18px
+    font-size: 18px;
+    margin-left: 40px
 }
 
 .container .site-tooggler {
@@ -29,13 +30,62 @@
 
 
 /* Jumbo */
-
-
-
-
-.jumbo {
-    height: calc(100vh - 90px)
+.site-jumbo {
+    background-color: #1abc9c;
 }
+
+
+
+.site-jumbo .jumbo .site-jumbo-container img {
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+}
+.site-jumbo .jumbo .site-jumbo-container .col-12 .site-title {
+    color: white;
+    font-size: 60px
+
+}
+
+
+.col-12 h4 {
+    color: white;
+    
+}
+
+
+
+
+.site-star {
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+}
+
+.site-star .star-line {
+    height: 4px;
+    width: 20%;
+    border-radius: 20px;
+}
+
+.site-star i {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px
+}
+
+.site-star-white .star-line {
+    background-color: white;
+}
+
+.site-star-white i {
+    color: white
+}
+
+
+
+
 
 .cards {
     height: 300px;
@@ -52,4 +102,38 @@
 
 .footer {
     height: 200px
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
+    .site-jumbo .jumbo .site-jumbo-container .col-12 .site-title {
+        font-size: 60px
+    
+    }
+
+    .site-jumbo .jumbo .site-jumbo-container img {
+        width: 50%;}
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .site-jumbo .jumbo .site-jumbo-container .col-12 .site-title {
+        font-size: 50px
+    
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .site-jumbo .jumbo .site-jumbo-container .col-12 .site-title {
+        font-size: 40px
+    
+    }
 }
