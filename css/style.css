@@ -99,12 +99,6 @@
     text-align: center;
 }
 
-
-
-
-.cards {
-}
-
 .cards img {
     width: 100%;
     border-radius: 20px;
@@ -113,14 +107,31 @@
 }
 
 
+/* About */
 
 
-
-
-
-.about {
-    height: 200px;
+.site-about {
+    background-color: #1abc9c;
 }
+.site-about h1 {
+    color: white;
+}
+
+.site-about .container .row .site-about-col p {
+    color: white
+}
+
+
+.site-button .button-outline {
+    display: block;
+    margin: 0 auto;
+}
+
+.site-button .button-outline i {
+    margin-right: 10px;
+}
+
+
 
 .form {
     height: 600px
